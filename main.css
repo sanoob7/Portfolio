@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: black;
+  margin: 200px 0 10px 200px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 0 0 10px 200px;
+}
+
+.mainbanner {
+  display: flex;
+}
+
+.logo {
+  height: inherit;
+}
+
+.bannerimage {
+  height: 200px;
+  width: 200px;
+  margin: 200px 0 10px 200px;
+}
