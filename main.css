@@ -1,19 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 60px;
   font-weight: bold;
-  color: black;
-  margin: 200px 0 10px 200px;
+  color: #333;
+  margin: 280px 0 10px 200px;
 }
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
   font-weight: bold;
-  color: black;
+  color: #333;
   margin: 0 0 10px 200px;
+}
+
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  /* font-weight: bold; */
+  color: #ffffff;
+  margin: 100px 0 10px 200px;
+}
+
+.credits h6 {
+  padding-left: 600px;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333;
+  margin: 25px 0 10px 200px;
 }
 
 .mainbanner {
@@ -25,7 +45,14 @@ h5 {
 }
 
 .bannerimage {
+  height: 350px;
+  width: 350px;
+  margin: 200px 0 10px 400px;
+}
+
+.footercontainer {
+  display: flex;
   height: 200px;
-  width: 200px;
-  margin: 200px 0 10px 200px;
+  margin: 200px 0 0 0;
+  background-color: grey;
 }
